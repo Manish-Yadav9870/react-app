@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import DashBoard  from "../../pages/DashBoard/DashBoard";
-import AboutUs from "../../pages/About-Us/Aboutus";
-import ContantUs from "../../pages/Contant-Us/ContactUs";
-import Profile from "../../pages/Profile/Profile";
-import Help from "../../pages/Help/Help";
+import DashBoard  from "../../../pages/DashBoard/DashBoard";
+import AboutUs from "../../../pages/About-Us/Aboutus";
+import ContantUs from "../../../pages/Contant-Us/ContactUs";
+import Profile from "../../../pages/Profile/Profile";
+import Help from "../../../pages/Help/Help";
 
 
 const MainContant=()=>{

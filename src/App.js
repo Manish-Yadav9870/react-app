@@ -1,9 +1,9 @@
 
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Sidebar from './components/Sidebar/Sidebar';
-import MainContant from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import Navbar from './components/LayOut/Navbar/Navbar';
+import Sidebar from './components/LayOut/Sidebar/Sidebar';
+import MainContant from './components/LayOut/Main/Main';
+import Footer from './components/LayOut/Footer/Footer';
 function App() {
   return (
     <>

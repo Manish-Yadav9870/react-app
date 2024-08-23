@@ -1,6 +1,8 @@
+import './Help.css'
+
 const Help =() =>{
     return (
-        <div>Help</div>
+        <div className="Help">Help</div>
     )
 }
 export default Help;

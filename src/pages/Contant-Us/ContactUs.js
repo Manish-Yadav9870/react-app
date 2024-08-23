@@ -1,6 +1,8 @@
+import './ContactUs'
+
 const ContantUs =() =>{
     return (
-        <div>Contact Us</div>
+        <div className="ContactUs">Contact Us</div>
     )
 }
 export default ContantUs;
