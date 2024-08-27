@@ -3,12 +3,12 @@
  const DisplayObj=({dataobj,title=""})=> {
     return (
         <div>
-  <h2>{title}</h2>
+  <h2 className="DisplayObject_h2">{title}</h2>
   {Object.keys(dataobj).map(attr =>{
    return(
-<div key={attr}>
-<span>{attr+"-:"}</span>: &nbsp;
-    <span>{dataobj[attr]}</span>
+<div className="DisplayObject_container" key={attr}>
+<span className="DisplayObject_span">{attr+"-:"}</span>: &nbsp;
+    <span className="DisplayObject_span2">{dataobj[attr]}</span>
 </div>
    )
     })}

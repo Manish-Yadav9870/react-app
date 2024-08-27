@@ -8,24 +8,24 @@ const ProfileData={
     PersonalDetails:
 
         {
-            name:"Manish Yadav",
-            age:"25",
-            gender:"male",
-            occupation:"Software Engineer"
+            Name:"Manish Yadav",
+            Age:"25",
+            Gender:"male",
+            Occupation:"Software Engineer"
         } ,
     Education:
         {
-            degree:"B.Tech",
-            collage:"IIT PHQ",
-            university:"P.H.Q, Jaipur",
-            year :"2024"
+            Degree:"B.Tech",
+            Collage:"IIT PHQ",
+            University:"P.H.Q, Jaipur",
+            Year :"2024"
         }  ,
     Contact:
         {
-            mobile:"9829089870",
-            email:"myadav9870@gmail.com",
-            facebook:"Manish Yadav",
-            instagram:"myadav@"
+            Mobile:"9829089870",
+            Email:"myadav9870@gmail.com",
+            Facebook:"Manish Yadav",
+            Instagram:"myadav@instagram"
         },
     Interest:["sports","racing","coding"]
 }
@@ -34,7 +34,7 @@ const ProfileData={
 const Profile =() =>{
     return (
         <div className="Profile">
-        <h2>{ProfileData.header}</h2>
+        <h2 className='h2_all_container'>{ProfileData.header}</h2>
   <div className='profile_container'>
     <DisplayObj title="Personal Details" dataobj={ProfileData.PersonalDetails}/>
     <DisplayObj title="Education" dataobj={ProfileData.Education}/>
